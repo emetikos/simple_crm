@@ -11,11 +11,11 @@
                 <div class="flex justify-center py-12">
 
                     <div class="p-6">
-                        <a href="{{ route('companies') }}" class="w-full bg-[#cee5fe] text-[#0f4083] p-10 rounded font-medium text-lg">Companies</a>
+                        <a href="{{ route('companies') }}" class="w-full bg-[#cee5fe] hover:bg-[#b6d8fe] text-[#0f4083] p-10 rounded font-medium text-lg">Companies</a>
                     </div>
 
                     <div class="p-6">
-                        <a href=" {{ route('employees') }}" class="w-full bg-[#d5edda] text-[#1a5726] p-10 rounded font-medium text-lg">Employees</a>
+                        <a href=" {{ route('employees') }}" class="w-full bg-[#d5edda] hover:bg-[#ceeaae] text-[#1a5726] p-10 rounded font-medium text-lg">Employees</a>
                     </div>
 
                 </div>

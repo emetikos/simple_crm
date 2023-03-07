@@ -15,8 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('first_name');
             $table->string('last_name');
-            $table->string('company');
-            $table->foreign('company')->references('name')->on('companies');
+            $table->integer('company_id');
             $table->string('email');
             $table->string('phone');
             $table->timestamps();

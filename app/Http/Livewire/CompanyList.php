@@ -13,6 +13,10 @@ class CompanyList extends Component
     public $new_logo;
     public $new_website;
 
+    protected $listeners = ['companyDeleted'];
+
+    public function companyDeleted() { }
+
     public function mount()
     {
         $this->compData = Company::all();
